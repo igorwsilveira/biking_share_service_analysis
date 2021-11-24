@@ -31,7 +31,7 @@ The unique Data Source to this project is from a company called CitiBank, under 
 <h3>2. Documentation of Cleaning and Manipulation of Data</h3>
 
 - I'm choosing Python and Excel for this task. Because at the first moment I will clean and then merge all the csv files into one so I can making the process easier and quicker.
-- The csv files contains a few data points that are useless of our analysis suck as (column names): start\_station\_id, end\_station\_id,start\_station\_latitude, start\_station\_longitude, end\_station\_latitude, end\_station\_longitude, bikeid, birthyear. All those columns will be removed to make the data clear and concise.
+- The csv files contains a few data points that are useless of our analysis such as (column names): start\_station\_id, end\_station\_id,start\_station\_latitude, start\_station\_longitude, end\_station\_latitude, end\_station\_longitude, bikeid, birthyear. All those columns will be removed to make the data clear and concise.
 - The null values was removed. Most of them was related to the location of station names, making impossible to replace since each user select a different start station and end station for their ride. And none of the null values was available in others Datasets from the company.
 - Duplicate data, was removed as well.
 - Next step is to remove the columns called (Unnamed: 0 and sourcefile name) from the v2 version of the DataFrame.
